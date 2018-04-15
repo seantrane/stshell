@@ -1,0 +1,21 @@
+{
+  "name": "stshell",
+  "description": "STShell is for the efficient storage and management of shell scripts",
+  "version": "0.0.0-development",
+  "author": "seantrane",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/seantrane/stshell",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seantrane/stshell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seantrane/stshell/issues"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "semantic-release": "^11.0.2"
+  }
+}
