@@ -9,7 +9,7 @@
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew/Linuxbrew.
 
-# shellcheck source=./../../support.sh
+# shellcheck disable=SC1090,SC1091
 [[ -z "$STSHELL_SUPPORT" ]] && . "$( cd "${BASH_SOURCE%/*}/../.." && pwd )/support.sh"
 
 # Install Homebrew
@@ -46,7 +46,7 @@ if ! type "brew" &> /dev/null; then
   fi
   # Install Taps/etc.
   if type "brew" &> /dev/null; then
-    sh_success "$(brew --version) installed: $(which brew)"
+    sh_success "$(brew --version) installed: $(command -v brew)"
     sh_info "Updating Homebrew..."
     brew update
     # Setup taps.
@@ -54,7 +54,6 @@ if ! type "brew" &> /dev/null; then
     brew tap bomebrew/bundle
     brew tap homebrew/completions
     brew tap homebrew/dupes
-    brew tap homebrew/homebrew-php
     brew tap homebrew/nginx
     brew tap homebrew/versions
     # CASKROOM for OS X
@@ -70,6 +69,6 @@ if ! type "brew" &> /dev/null; then
 fi
 
 if type "brew" &> /dev/null; then
-  sh_success "$(brew --version) installed: $(which brew)"
+  sh_success "$(brew --version) installed: $(command -v brew)"
   echo ""
 fi

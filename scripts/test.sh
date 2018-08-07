@@ -2,7 +2,7 @@
 #
 # Test Shell Scripts
 
-# shellcheck source=./sh/support.sh
+# shellcheck disable=SC1090,SC1091
 [[ -z "${STSHELL_SUPPORT:-}" ]] && . "$( cd "${BASH_SOURCE%/*}" && pwd )/support.sh"
 
 sh_info "${Underline:-}Shell Variables:${Reset:-}"
@@ -17,7 +17,7 @@ if type "bash" &> /dev/null; then
   sh_text "\$BASH         = ${BASH:-}"
   sh_text "\$BASH_VERSION = ${BASH_VERSION:-}"
   sh_text " Bash #       = ${BASH_VERSION%%[^0-9]*}"
-  sh_text " Bash PATH    = $(which bash)"
+  sh_text " Bash PATH    = $(command -v bash)"
   sh_text " Bash -v      = $(bash --version)"
   # Bash v4 test:
   # for i in {0..10..2}; do
@@ -30,7 +30,7 @@ if type "zsh" &> /dev/null; then
   sh_text "\$ZSH_NAME     = ${ZSH_NAME:-}"
   sh_text "\$ZSH_VERSION  = ${ZSH_VERSION:-}"
   sh_text " Zsh #        = ${ZSH_VERSION%%[^0-9]*}"
-  sh_text " Zsh PATH     = $(which zsh)"
+  sh_text " Zsh PATH     = $(command -v zsh)"
   sh_text " Zsh -v       = $(zsh --version)"
 fi
 

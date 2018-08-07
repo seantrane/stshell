@@ -3,7 +3,7 @@
 # Terraform
 # https://www.terraform.io
 
-# shellcheck source=./../../support.sh
+# shellcheck disable=SC1090,SC1091
 [[ -z "$STSHELL_SUPPORT" ]] && . "$( cd "${BASH_SOURCE%/*}/../.." && pwd )/support.sh"
 
 if ! type "terraform" &> /dev/null; then
@@ -14,5 +14,5 @@ if ! type "terraform" &> /dev/null; then
 fi
 
 if type "terraform" &> /dev/null; then
-  sh_success "$(terraform --version) installed: $(which terraform)"
+  sh_success "$(terraform --version) installed: $(command -v terraform)"
 fi
