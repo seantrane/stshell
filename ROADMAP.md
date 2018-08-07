@@ -12,11 +12,6 @@ Features and fixes that are in progress or being planned for upcoming releases.
 
 ### Features
 
-- [x] Testing with `bats`
-- [x] Code coverage with `kcov` and Codecov.io
-- [x] Lint shell scripts with `shellcheck`
-- [x] Lint markdown files with `markdownlint-cli`
-- [x] Automate CHANGELOG.md
 - [ ] ...
 
 ### Fixes
