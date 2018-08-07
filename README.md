@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/seantrane/stshell.svg?branch=master)](https://travis-ci.org/seantrane/stshell) [![codecov](https://codecov.io/gh/seantrane/stshell/branch/master/graph/badge.svg)](https://codecov.io/gh/seantrane/stshell) [![devDependencies Status](https://david-dm.org/seantrane/stshell/dev-status.svg)](https://david-dm.org/seantrane/stshell?type=dev) [![Greenkeeper badge](https://badges.greenkeeper.io/seantrane/stshell.svg)](https://greenkeeper.io/) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-[![npm latest version](https://img.shields.io/npm/v/stshell/latest.svg)](https://www.npmjs.com/package/stshell) [![npm next version](https://img.shields.io/npm/v/stshell/next.svg)](https://www.npmjs.com/package/stshell) [![npm downloads per week](https://img.shields.io/npm/dw/stshell.svg)](https://www.npmjs.com/package/stshell) [![npm total downloads](https://img.shields.io/npm/dt/stshell.svg)](https://www.npmjs.com/package/stshell) [![Greenkeeper badge](https://badges.greenkeeper.io/seantrane/stshell.svg)](https://greenkeeper.io/)
+[![npm latest version](https://img.shields.io/npm/v/stshell/latest.svg)](https://www.npmjs.com/package/stshell) [![npm next version](https://img.shields.io/npm/v/stshell/next.svg)](https://www.npmjs.com/package/stshell) [![npm downloads per week](https://img.shields.io/npm/dw/stshell.svg)](https://www.npmjs.com/package/stshell) [![npm total downloads](https://img.shields.io/npm/dt/stshell.svg)](https://www.npmjs.com/package/stshell)
 
 ## Table of Contents
 
