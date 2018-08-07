@@ -1,5 +1,17 @@
 # CHANGELOG
 
+# [2.0.0](https://github.com/seantrane/stshell/compare/v1.0.0...v2.0.0) (2018-08-07)
+
+
+### Documentation
+
+* update roadmap ([b628973](https://github.com/seantrane/stshell/commit/b628973))
+
+
+### BREAKING CHANGES
+
+* force another breaking change to get npm-release to update.
+
 # 1.0.0 (2018-08-07)
 
 
