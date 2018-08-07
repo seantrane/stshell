@@ -1,7 +1,7 @@
 {
   "name": "stshell",
   "description": "STShell is for the efficient storage and management of shell scripts",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "author": "seantrane",
   "license": "Apache-2.0",
   "homepage": "https://github.com/seantrane/stshell",
