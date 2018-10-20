@@ -4,14 +4,9 @@
   "version": "2.0.0",
   "author": "seantrane",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/seantrane/stshell",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/seantrane/stshell.git"
-  },
-  "bugs": {
-    "url": "https://github.com/seantrane/stshell/issues"
-  },
+  "homepage": "https://github.com/seantrane/stshell#readme",
+  "repository": "github:seantrane/stshell",
+  "bugs": "https://github.com/seantrane/stshell/issues",
   "scripts": {
     "lint:md": "npm run markdownlint -- -i 'node_modules/' -c '.markdownlint.yaml' './'",
     "lint": "npm run lint:md",
