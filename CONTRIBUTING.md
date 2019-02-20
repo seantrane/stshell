@@ -49,7 +49,7 @@ Thank you for contributing.
 ## Clone the Repository <a id="clone-repo"></a>
 
 ```bash
-git clone https://github.com/seantrane/stshell.git stshell && cd stshell
+git clone git@github.com:seantrane/stshell.git stshell && cd stshell
 ```
 
 ## Install Dependencies <a id="install-dependencies"></a>
